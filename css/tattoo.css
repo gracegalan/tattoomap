@@ -1,0 +1,35 @@
+#desk {
+    background-image: url('../img/wood-desk.jpg') ;
+    background-size: cover;
+    width: 1920px;
+    height: 1080px;
+    margin: 0%;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#journal {
+    background-image: url('../img/background1-journal1.png') ;
+    width: 1565px;
+    height: 1060px;
+    position: absolute;
+}
+
+#song1-tattoo{
+    background-image: url(../img/song1-background.png);
+    width:720px;
+    height:818px;
+    margin-top:120px;
+    margin-left:50px;
+}
+
+#song1-background{
+    width:746px;
+    height:1002px;
+    top:35px;
+    left:185px;
+}
+

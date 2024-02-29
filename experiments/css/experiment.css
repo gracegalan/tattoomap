@@ -1,0 +1,22 @@
+
+
+.image-container {
+position: relative;
+}
+
+#tester {
+max-width: 110%;
+max-height: 110%;
+margin: 0; 
+display: block;
+}
+  
+#tester-text {
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+height: auto;
+display: block;
+text-align: center;
+}
