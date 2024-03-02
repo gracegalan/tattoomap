@@ -33,3 +33,46 @@
     left:185px;
 }
 
+.two-page{
+    display: inline-flex;
+}
+
+#wildonion1-right, #wildonion1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#wildonion1-tattoo{
+    width:743px;
+    height:988px;
+    margin-top:40px;
+    margin-left: 15px;
+}
+
+#wildonion1-text-background{
+    width:720px;
+    height:982px;
+    margin-top:40px;
+    margin-left:40px;
+}
+
+#mimi1-right, #mimi1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#mimi1-tattoo{
+    width:345px;
+    height:623px;
+    margin-top:30px;
+    margin-left: 400px;
+}
+
+#mimi1-tshirt{
+    width:658px;
+    height:573px;
+    margin-top: 450px;
+    margin-left:35px;
+}
