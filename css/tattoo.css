@@ -263,6 +263,106 @@
 #thunderdog1-tattoo{
     width:650px;
     height:650px;
-    margin-top:70px;
+    margin-top:200px;
     margin-left:60px; 
+}
+
+#freemartin1-right, #freemartin1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#freemartin1-tattoo{
+    width:705px;
+    height:972px;
+    margin-top:50px;
+    margin-left:50px;
+}
+
+#freemartin1-book{
+    width:324px;
+    height:440px;
+    margin-top:600px;
+    margin-left:400px;
+}
+
+#bubzee1-right, #bubzee1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#bubzee1-tattoo{
+    width:629px;
+    height:843px;
+    margin-top: 90px;
+    margin-left: 60px;
+}
+
+#bubzee1-text-background{
+    width:629px;
+    height:919px;
+    margin-top:70px;
+    margin-left:80px;
+}
+
+#venus1-right, #venus1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#venus1-left-layer {
+    width:732px;
+    height:980px;
+    margin-top:45px;
+    margin-left:40px;  
+}
+
+#venus1-right-layer{
+    width:732px;
+    height:980px;
+    margin-top:45px;
+    margin-left:25px; 
+}
+
+#centipede1-right, #centipede1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#centipede1-tattoos{
+    width:750px;
+    height:970px;
+    margin-top:50px;
+    margin-left:50px;
+}
+
+#centipede1-text-background{
+    width:650px;
+    height:970px;
+    margin-top:50px;
+    margin-left:45px;
+}
+
+#noboats1-right, #noboats1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#noboats1-tattoo{
+    width:716px;
+    height:703px;
+    margin-top:160px;
+    margin-left:20px;
+}
+
+#noboats1-envelope{
+    width:728px;
+    height:482px;
+    margin-top:30px;
+    margin-left:50px;
 }
