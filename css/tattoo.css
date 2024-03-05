@@ -182,3 +182,87 @@
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+#origamicrane1-right, #origamicrane1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#origamicrane1-tattoo{
+    width:732px;
+    height:980px;
+    margin-top:45px;
+    margin-left:40px;  
+}
+
+#origamicrane1-text{
+    width:723px;
+    height:970px;
+    margin-top: 50px;
+    margin-left: 35px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+#thisthat1-right, #thisthat1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#thisthat1-tattoo{
+    width:732px;
+    height:980px;
+    margin-top:45px;
+    margin-left:40px;  
+}
+
+#thisthat1-text{
+    width:723px;
+    height:970px;
+    margin-top: 50px;
+    margin-left: 35px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+#frog1-right, #frog1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#frog1-tattoo{
+    width:732px;
+    height:980px;
+    margin-top:45px;
+    margin-left:40px;  
+}
+
+#frog1-comic{
+    width:431px;
+    height:426px;
+    margin-top:40px;
+    margin-left:300px;
+}
+
+#thunderdog1-right, #thunderdog1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#thunderdog1-florence-collage{
+    width:770px;
+    height:900px;
+    margin-top:150px;
+    margin-left:25px;
+}
+
+#thunderdog1-tattoo{
+    width:650px;
+    height:650px;
+    margin-top:70px;
+    margin-left:60px; 
+}
