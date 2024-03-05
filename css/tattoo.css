@@ -76,3 +76,109 @@
     margin-top: 450px;
     margin-left:35px;
 }
+
+#mandrake1-right, #mandrake1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#mandrake1-tattoo{
+    width:732px;
+    height:980px;
+    margin-top:40px;
+    margin-left:20px;
+}
+
+#mandrake1-text{
+    width: 700px;
+    height: 980px;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#washingmaching1-right, #washingmachine1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#washingmachine1-left, #washingmachine1-right{
+    Width: 700px;
+    height: 980px;
+}
+
+#washingmachine1-tattoo{
+    height:415px ;
+    width: 625px;
+    margin-left: 190px;
+    margin-top: 600px;
+}
+
+#semicolon1-right, #semicolon1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#semicolon1-tattoo{
+    width:732px;
+    height:980px;
+    margin-top:40px;
+    margin-left:20px;
+}
+
+#semicolon1-text{
+    width: 700px;
+    height: 980px;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#bee1-right, #bee1-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#bee1-tattoo{
+    width:723px;
+    height:970px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#bee1-text{
+    width:723px;
+    height:970px;
+    margin-top: 50px;
+    margin-left: 35px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#room51-right, #room51-left{
+    flex: 1;
+    width: 750px;
+    height: 1000px;
+}
+
+#room51-tattoo{
+    width:732px;
+    height:980px;
+    margin-top:45px;
+    margin-left:40px;  
+}
+
+#room51-text{
+    width:723px;
+    height:970px;
+    margin-top: 50px;
+    margin-left: 35px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
