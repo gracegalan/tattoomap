@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "my-font";
+    src: url("homemade-apple.woff") format('woff');
+  }
+
 #desk {
     background-image: url('../img/wood-desk.jpg') ;
     background-size: cover;
@@ -31,6 +36,15 @@
     height:1002px;
     top:35px;
     left:185px;
+}
+
+#song1-text{
+    width: 700px;
+    height: 980px;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: "my-font";
 }
 
 .two-page{
@@ -365,4 +379,14 @@
     height:482px;
     margin-top:30px;
     margin-left:50px;
+}
+
+#next-button{
+    margin-right: 50px;
+    margin-left: 610px;
+}
+
+#back-button{
+    margin-left: 50px;
+    margin-right: 610px;
 }
