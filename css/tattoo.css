@@ -1,7 +1,22 @@
 @font-face {
-    font-family: "my-font";
-    src: url("homemade-apple.woff") format('woff');
-  }
+    font-family: "homemade-apple";
+    src: url('../img/HomemadeApple.ttf') format('truetype');
+}
+
+.handwritten{
+    font-family: "homemade-apple";
+}
+
+.prev{
+    position: absolute;
+    margin-right: 1800px;
+
+}
+
+.next{
+    position: absolute;
+    margin-left: 1800px;
+}
 
 #desk {
     background-image: url('../img/wood-desk.jpg') ;
@@ -44,7 +59,7 @@
     margin-top: 60px;
     margin-left: 60px;
     font-size: 25px;
-    font-family: "my-font";
+    font-family: "handmade-apple";
 }
 
 .two-page{
@@ -64,11 +79,23 @@
     margin-left: 15px;
 }
 
-#wildonion1-text-background{
+#wildonion1-right{
+    background: url(../img/wildonion1-text-background.png);
     width:720px;
     height:982px;
     margin-top:40px;
     margin-left:40px;
+    margin-right: 45px;
+}
+
+#wildonion1-text{
+    width: 700px;
+    height: 980px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 28px;
+    color: antiquewhite;
+    font-family: "handmade-apple";
 }
 
 #mimi1-right, #mimi1-left{
@@ -78,17 +105,31 @@
 }
 
 #mimi1-tattoo{
-    width:345px;
-    height:623px;
-    margin-top:30px;
-    margin-left: 400px;
+    width:445px;
+    height:723px;
+    margin-top:50px;
+    margin-left: 300px;
+}
+
+#mimi1-text{
+    width: 700px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: "handmade-apple";
+}
+
+#mimi1-tshirt-image-wrapper{
+    width: 700px;
+    height: 600px;
 }
 
 #mimi1-tshirt{
     width:658px;
     height:573px;
-    margin-top: 450px;
-    margin-left:35px;
+    margin-left: 30px;
+    margin-top: 25px;
 }
 
 #mandrake1-right, #mandrake1-left{
@@ -110,7 +151,7 @@
     margin-top: 60px;
     margin-left: 60px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "handmade-apple";
 }
 
 #washingmaching1-right, #washingmachine1-left{
@@ -124,11 +165,27 @@
     height: 980px;
 }
 
+#washingmachine1-left{
+    width:732px;
+    height:980px;
+    margin-top:40px;
+    margin-left:20px;
+}
+
+#washingmachine1-text{
+    width: 700px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: "handmade-apple";
+}
+
 #washingmachine1-tattoo{
     height:415px ;
     width: 625px;
-    margin-left: 190px;
-    margin-top: 600px;
+    margin-left: 160px;
+    margin-top: 100px;
 }
 
 #semicolon1-right, #semicolon1-left{
@@ -150,7 +207,7 @@
     margin-top: 60px;
     margin-left: 60px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "handmade-apple";
 }
 
 #bee1-right, #bee1-left{
@@ -172,7 +229,7 @@
     margin-top: 50px;
     margin-left: 35px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "handmade-apple";
 }
 
 #room51-right, #room51-left{
@@ -194,7 +251,7 @@
     margin-top: 50px;
     margin-left: 35px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "handmade-apple";
 }
 
 #origamicrane1-right, #origamicrane1-left{
@@ -216,7 +273,7 @@
     margin-top: 50px;
     margin-left: 35px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: "handmade-apple"; 
 }
 
 #thisthat1-right, #thisthat1-left{
@@ -238,7 +295,7 @@
     margin-top: 50px;
     margin-left: 35px;
     font-size: 35px;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: "handmade-apple"; 
 }
 
 #frog1-right, #frog1-left{
@@ -261,16 +318,34 @@
     margin-left:300px;
 }
 
+#frog1-text{
+    width: 700px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: "handmade-apple";
+}
+
 #thunderdog1-right, #thunderdog1-left{
     flex: 1;
     width: 750px;
     height: 1000px;
 }
 
+#thunderdog1-text{
+    width: 700px;
+    height: 80px;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-family: "handmade-apple";
+}
+
 #thunderdog1-florence-collage{
     width:770px;
     height:900px;
-    margin-top:150px;
     margin-left:25px;
 }
 
@@ -294,10 +369,19 @@
     margin-left:50px;
 }
 
+#freemartin1-text{
+    width: 700px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: "handmade-apple";
+}
+
 #freemartin1-book{
     width:324px;
     height:440px;
-    margin-top:600px;
+    margin-top:460px;
     margin-left:400px;
 }
 
@@ -315,10 +399,20 @@
 }
 
 #bubzee1-text-background{
-    width:629px;
-    height:919px;
-    margin-top:70px;
-    margin-left:80px;
+    background: url(../img/bubzee1-text-background.png);
+    width:740px;
+    height:980px;
+    margin-top:30px;
+    margin-left:40px;
+}
+
+#bubzee1-text{
+    width: 600px;
+    height: 800px;
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 17px;
+    font-family: "handmade-apple";
 }
 
 #venus1-right, #venus1-left{
@@ -328,10 +422,25 @@
 }
 
 #venus1-left-layer {
-    width:732px;
-    height:980px;
+    background: url(../img/venus1-left-layer.png);
+    width:740px;
+    height:960px;
     margin-top:45px;
     margin-left:40px;  
+}
+
+#venus1-text-wrapper{
+    margin-top: 80px;
+}
+
+#venus1-text{
+    width: 600px;
+    height: 800px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: "handmade-apple"; 
+    color: antiquewhite; 
 }
 
 #venus1-right-layer{
@@ -354,11 +463,23 @@
     margin-left:50px;
 }
 
-#centipede1-text-background{
-    width:650px;
-    height:970px;
-    margin-top:50px;
-    margin-left:45px;
+#centipede1-right{
+    background: url(../img/centipede1-text-background.png);
+    width: 500px;
+    height:940px;
+    margin-top: 60px;
+    margin-left:95px;
+    margin-right: 85px;
+}
+
+#centipede1-text{
+    width: 550px;
+    height: 900px;
+    margin-bottom: 40px;
+    margin-left:50px;
+    font-size: 22px;
+    font-family: "handmade-apple"; 
+    color: antiquewhite; 
 }
 
 #noboats1-right, #noboats1-left{
@@ -377,16 +498,16 @@
 #noboats1-envelope{
     width:728px;
     height:482px;
-    margin-top:30px;
+    margin-top:50px;
     margin-left:50px;
 }
 
-#next-button{
-    margin-right: 50px;
-    margin-left: 610px;
+#noboats1-text{
+    width: 700px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 21px;
+    font-family: "handmade-apple";
 }
 
-#back-button{
-    margin-left: 50px;
-    margin-right: 610px;
-}
