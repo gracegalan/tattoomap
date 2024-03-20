@@ -475,12 +475,11 @@ document, body {
 #bubzee1-text{
     width: 600px;
     height: 500px;
-    padding: 100px 120px 80px 130px;
     font-size: 17px;
 }
 
 #bubzee-text-wrapper{
-    padding: 100px 120px 80px 130px;
+    padding: 100px 115px 125px 120px;
 }
 
 #venus1-right, #venus1-left{
