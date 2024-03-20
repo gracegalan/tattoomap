@@ -1,10 +1,12 @@
-body{
+document, body {
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
     font-family: "homemade-apple";
-    src: url('../img/HomemadeApple.ttf') format('truetype');
+    src: url('../fonts/HomemadeApple.ttf') format('truetype');
 }
 
 .handwritten{

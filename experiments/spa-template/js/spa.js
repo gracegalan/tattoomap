@@ -15,8 +15,8 @@ function displayPage(pageNumber) {
 
 function prepNav() {
   $('.page').each(function() {
-      $(this).append('<button class="prev">&lt;<br>Prev</button>');
-      $(this).append('<button class="next">&gt;<br>Next</button>');
+      $(this).append('<button class="prev"></button>');
+      $(this).append('<button class="next"></button>');
   });
 
   $('.prev').click(function() {
