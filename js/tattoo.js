@@ -49,12 +49,17 @@ $(document).ready(function() {
 
   $(window).resize(function() {
     var windowWidth = $(window).width();
-    var originalWidth = 1920; // Assuming the original width of your elements is 1920px
+    var windowHeight = $(window).height();
+    var originalWidth = 1920;
+    var originalHeight = 1080;
     var scaleFactor = windowWidth / originalWidth;
 
     $('.page-contents').css({
-        'transform': 'scale(' + scaleFactor + ')',
-        'transform-origin': 'top left'
+        'transform-origin': '0 0',
+        'position': 'absolute',
+        'left': '50%',
+        'top': '50%',
+        'transform': 'scale(' + scaleFactor + ') translate(-50%, -50%) '
     });
   }).trigger('resize');
 

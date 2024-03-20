@@ -20,22 +20,24 @@ document, body {
 
 .prev{
     position: absolute;
-    margin-right: 1800px;
+    left: 5px;
+    top: calc(50% - 35px);
     background: url(../img/back-button-2.png);
     width: 152px;
     height: 71px;
-    margin-left: 50px;
     border: none;
+    z-index: 100;
 }
 
 .next{
     position: absolute;
-    margin-left: 1800px;
+    right: 5px;
+    top: calc(50% - 35px);
     background: url(../img/next-button.png);
     width: 125px;
     height: 52px;
-    margin-right: 30px;
     border: none;
+    z-index: 100;
 }
 
 .opening-page{
@@ -47,9 +49,9 @@ document, body {
 .title-page{
     height: 1080px;
     width: 1600px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    position: relative;
+    position: relative; */
 }
 
 .title1-image-container{
