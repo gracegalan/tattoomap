@@ -79,6 +79,7 @@ document, body {
 }
 
 .page {      
+  display: none;
   width: 100vw; /* Ensure background covers the entire .page */
   height: 100vh;
   /* overflow: hidden; */
