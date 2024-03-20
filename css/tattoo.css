@@ -43,7 +43,7 @@ document, body {
 .opening-page{
     background-image: url(../img/title-page-background.png);
     width: 1920px;
-    height: 1080px;
+    height: 1100px;
 }
 
 .title-page{
@@ -55,21 +55,27 @@ document, body {
 }
 
 .title1-image-container{
-    width: 250px;
-    height: 100px; 
+    width: 400px;
+    /* height: 100px;  */
     position: absolute;
-    padding: 700px 810px 220px 810px;
+    top: 700px;
+    left: 810px;
 }
 
 .title{
-    font-family: "optima";
-    font-size: 65px;
-    color: antiquewhite;
+  font-family: "optima", serif;
+  font-size: 100px;
+  color: antiquewhite;
+  text-align: center;
 }
 
-#title1-ticket{
-    width: 250px;
-    height: 100px;
+#title1-ticket.button {
+  cursor: pointer;
+}
+
+.imgage-wrapper img {
+    width: 100%;
+    height: auto;
 }
 
 .page {      

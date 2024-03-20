@@ -74,4 +74,9 @@ $(document).ready(function() {
     });
   }).trigger('resize');
 
+  // add click listerner to the ticket 
+  $('#title1-ticket').click(function() {
+    nextPage();
+  });
+
 });
