@@ -48,18 +48,29 @@ $(document).ready(function() {
   }
 
   $(window).resize(function() {
-    var windowWidth = $(window).width();
-    var windowHeight = $(window).height();
+    var viewportWidth = $(window).width();
+    var viewportHeight = $(window).height();
     var originalWidth = 1920;
     var originalHeight = 1080;
-    var scaleFactor = windowWidth / originalWidth;
+    var aspectRatio = originalWidth / originalHeight;
+    var viewportAspectRatio = viewportWidth / viewportHeight;
+    var scaleFactor;
+
+    // Decide whether to scale based on width or height by comparing aspect ratios
+    if (viewportAspectRatio > aspectRatio) {
+        // Viewport is wider relative to the desired aspect ratio, scale based on height
+        scaleFactor = viewportHeight / originalHeight;
+    } else {
+        // Viewport is narrower, scale based on width
+        scaleFactor = viewportWidth / originalWidth;
+    }
 
     $('.page-contents').css({
+        'transform': 'scale(' + scaleFactor + ') translate(-50%, -50%)',
         'transform-origin': '0 0',
         'position': 'absolute',
         'left': '50%',
         'top': '50%',
-        'transform': 'scale(' + scaleFactor + ') translate(-50%, -50%) '
     });
   }).trigger('resize');
 
