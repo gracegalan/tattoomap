@@ -78,9 +78,9 @@ document, body {
   /* overflow: hidden; */
   margin: 0;
   border: 0;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   position: relative;
 }
 
@@ -94,6 +94,9 @@ document, body {
 .page-contents {
   width: 1920px;
   height: 1080px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .journal {
