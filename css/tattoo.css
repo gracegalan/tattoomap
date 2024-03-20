@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 @font-face {
     font-family: "homemade-apple";
     src: url('../img/HomemadeApple.ttf') format('truetype');
@@ -23,6 +27,12 @@
     width: 125px;
     height: 52px;
     margin-right: 30px;
+}
+
+.opening-page{
+    background-image: url(../img/title-page.png);
+    width: 1920px;
+    height: 1080px;
 }
 
 #desk {
@@ -402,10 +412,13 @@
 
 #bubzee1-text{
     width: 600px;
-    height: 800px;
-    margin-top: 40px;
-    margin-left: 80px;
+    height: 500px;
+    padding: 100px 120px 80px 130px;
     font-size: 17px;
+}
+
+#bubzee-text-wrapper{
+    padding: 100px 120px 80px 130px;
 }
 
 #venus1-right, #venus1-left{

@@ -1,6 +1,6 @@
 // Global variable to track the current page
 var currentPage = 1;
-var maxPages = 17
+var maxPages = 18
 
 $(document).ready(function() {
   displayPage(currentPage); // Display the initial page
