@@ -68,7 +68,7 @@ document, body {
     height: 100px;
 }
 
-#desk {
+.desk {
     background-image: url('../img/wood-desk.jpg') ;
     background-size: cover;
     width: 1920px;
@@ -81,7 +81,7 @@ document, body {
     position: relative;
 }
 
-#journal {
+.journal {
     background-image: url('../img/background1-journal1.png') ;
     width: 1565px;
     height: 1060px;
