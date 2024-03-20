@@ -10,12 +10,19 @@
 .prev{
     position: absolute;
     margin-right: 1800px;
-
+    background: url(../img/back-button-2.png);
+    width: 152px;
+    height: 71px;
+    margin-left: 50px;
 }
 
 .next{
     position: absolute;
     margin-left: 1800px;
+    background: url(../img/next-button.png);
+    width: 125px;
+    height: 52px;
+    margin-right: 30px;
 }
 
 #desk {
