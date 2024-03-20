@@ -39,9 +39,35 @@ document, body {
 }
 
 .opening-page{
-    background-image: url(../img/title-page.png);
+    background-image: url(../img/title-page-background.png);
     width: 1920px;
     height: 1080px;
+}
+
+.title-page{
+    height: 1080px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.title1-image-container{
+    width: 250px;
+    height: 100px; 
+    position: absolute;
+    padding: 700px 810px 220px 810px;
+}
+
+.title{
+    font-family: "optima";
+    font-size: 65px;
+    color: antiquewhite;
+}
+
+#title1-ticket{
+    width: 250px;
+    height: 100px;
 }
 
 .page {      
